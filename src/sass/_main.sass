@@ -1,0 +1,49 @@
+html
+  font-size: 62.5%
+
+body
+  font-size: $base-font-size
+  overflow-x: hidden
+  width: 100vw
+  margin: 0
+  font-family: $default-sans
+  line-height: $doc-line-height
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  *
+    box-sizing: border-box
+    outline: 0
+
+main
+  +flex-column
+  width: 100vw
+  height: 100vh
+  position: relative
+  z-index: 10
+  padding: 2rem
+
+// Defaults
+ul
+  list-style: none
+
+// CLEAR DEFAULT MARGINS & PADS
+ul,h1,h2,h3,h4,h5,p,li
+  margin: 0
+  padding: 0
+
+img
+  width: 100%
+  height: auto
+
+aside
+  width: 100%
+  height: 100%
+  background-repeat: no-repeat
+  background-size: contain
+  background-position-x: right
+
+#title
+  width: 50%
+  position: fixed
+  top: 40%
+  left: 3rem

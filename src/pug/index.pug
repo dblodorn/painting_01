@@ -1,0 +1,13 @@
+extends structure/_layout.pug
+
+block vars
+  - pageKey = home
+  - bodyClass = pageKey.body_class
+  - siteTitle = pageKey.title
+  - siteDescription = pageKey.description
+  - siteKeywords = pageKey.keywords
+
+block content
+  aside(style="background-image: url('static/cover.jpg');")
+  a#title(href="https://www.instagram.com/dmbk_painting_01/")
+    img(src="static/dmbk.svg")

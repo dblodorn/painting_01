@@ -1,0 +1,19 @@
+{
+	"global": {
+		"site_title": "DMBK PAINTING 01",
+		"language": "en",
+		"home_link": "/"
+	},
+  "nav": [
+    {
+      "slug": "",
+      "title": "home"
+    }
+  ],
+  "home": {
+    "description": "Hi - im a 54” x 72” painting on duck canvas by Dain Blodorn Kim.",
+    "keywords": "Painting, Dain Blodorn Kim",
+    "title": "",
+    "body_class": "home"
+  }
+}

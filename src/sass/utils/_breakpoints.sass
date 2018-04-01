@@ -1,0 +1,17 @@
+// BREAKPOINT MIXINS
+=medium
+	@media (max-width: #{$breakpoint-medium})
+		@content
+
+=large
+	@media (max-width: #{$breakpoint-large})
+		@content
+
+// CUSTOM WIDTH - as Argument
+=responsive-below($width)
+	@media (max-width: #{$width})
+		@content
+
+=responsive-above($width)
+	@media (min-width: $width)
+		@content

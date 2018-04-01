@@ -1,0 +1,9 @@
+block vars
+
+doctype html
+html(lang= global.language class= global.language)
+  include _head.pug
+  body(class= bodyClass)
+    main(role="main")
+      block content
+    script(src="js/bundle.js")

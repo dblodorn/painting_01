@@ -1,0 +1,4 @@
+node_modules
+src/.sass-cache
+src/_temp
+dist

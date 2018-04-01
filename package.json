@@ -1,0 +1,46 @@
+{
+  "name": "html-website-dot-com",
+  "version": "1.0.0",
+  "description": "html-website-dot-com",
+  "main": "index.js",
+  "repository": "https://github.com/dblodorn/html-website-dot-com",
+  "author": "Dain Blodorn Kim",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "eslintify"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.2.0",
+    "browserify-shim": "^3.8.14",
+    "eslint": "^4.18.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslintify": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-data": "^1.3.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-npm-script-sync": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^2.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
+}
